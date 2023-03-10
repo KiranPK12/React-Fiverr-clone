@@ -1,0 +1,21 @@
+.trustedby{
+    height: 100px;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 760px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        color: rgb(173, 172, 172);
+        font-weight: 600;
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        img{
+            height: 50px;
+            object-fit: cover;
+        }
+    }
+}

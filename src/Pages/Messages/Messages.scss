@@ -1,0 +1,44 @@
+.messages{
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 1400px;
+        padding: 50px 0;
+
+        .title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            
+        }
+        table{
+            width: 100%;
+            tr{
+                height: 50px;
+                th{
+                    text-align: left;
+                }
+
+                td{
+                    height: 70px;
+                    button{
+                        color:white;
+                        background-color: #1bdf73;
+                        font-weight: 500;
+                        border: none;
+                        padding: 10px ;
+                        cursor: pointer;
+                    }
+                }
+
+                &.active{
+                    background-color: #0fad640f
+                }
+            };
+        }
+
+    }
+}

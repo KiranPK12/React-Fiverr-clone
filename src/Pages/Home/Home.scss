@@ -1,0 +1,110 @@
+.home {
+  .features {
+    background-color: #f1fdf7;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+
+    &.dark {
+      background-color: #0d084d;
+      padding: 80px 0;
+      .container {
+        gap: 40px;
+
+        .item {
+          &:first-child {
+            flex: 2 !important;
+          }
+          &:last-child {
+            flex: 3 !important;
+          }
+        }
+      }
+      h1 {
+        color: white !important;
+        font-size: 32px !important;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 0.1px !important;
+        margin-bottom: 10px !important;
+      }
+
+      p {
+        color: white !important;
+        margin-bottom: 20px !important;
+        font-weight: 400 !important;
+      }
+
+      span {
+        font-style: italic;
+        font-weight: 300;
+      }
+
+      .title {
+        font-weight: 400 !important;
+        color: white !important;
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+      }
+      .business-button {
+        padding: 10px;
+        background-color: #11924b;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        width: max-content;
+        border-radius: 10px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+    .container {
+      width: 1400px;
+      display: flex;
+      align-items: center;
+      gap: 100px;
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        &:first-child {
+          flex: 3;
+        }
+
+        &:last-child {
+          flex: 3;
+        }
+
+        h1 {
+          font-size: 35px;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 300;
+          color: gray;
+          line-height: 28px;
+          letter-spacing: 0.5px;
+        }
+        .title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          font-weight: 500;
+          font-size: 18px;
+          color: rgb(67, 66, 66);
+
+          img {
+            height: 24px;
+            width: 24px;
+          }
+        }
+        video {
+          width: 780px;
+        }
+      }
+    }
+  }
+}
