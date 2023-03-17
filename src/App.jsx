@@ -10,6 +10,8 @@ import Gig from "./Pages/Gig/Gig";
 import Orders from "./Pages/Orders/Orders";
 import MyGigs from "./Pages/MyGigs/MyGigs";
 import Add from "./Pages/Add/Add"
+import Login from "./Pages/Login/Login"
+import Register from "./Pages/Register/Register"
 
 
 function App() {
@@ -58,7 +60,15 @@ function App() {
         {
           path:"/message/:id",
           element:<Message/>
-        }
+        },
+        {
+          path: "/register",
+          element: <Register />,
+        },
+        {
+          path: "/login",
+          element: <Login />,
+        },
       ]
     },
   ]);
